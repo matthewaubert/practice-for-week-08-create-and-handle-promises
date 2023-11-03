@@ -24,9 +24,9 @@ function liftWeights() {
 
 function workout() {
   stretch()
-  .then(() => runOnTreadmill())
-  .then(() => liftWeights())
-  .then(() => console.log('done working out'));
+    .then(() => runOnTreadmill())
+    .then(() => liftWeights())
+    .then(() => console.log('done working out'));
 }
 
 

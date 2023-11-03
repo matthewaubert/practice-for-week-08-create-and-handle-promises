@@ -45,10 +45,10 @@ function liftWeights(timeLeft) {
 
 function workout(totalTime) {
   stretch(totalTime)
-  .then(time => runOnTreadmill(time))
-  .then(time => liftWeights(time))
-  .then((time) => console.log(`done working out with ${time / 1000} seconds left`))
-  .catch(msg => console.error(msg));
+    .then(time => runOnTreadmill(time))
+    .then(time => liftWeights(time))
+    .then((time) => console.log(`done working out with ${time / 1000} seconds left`))
+    .catch(msg => console.error(msg));
 }
 
 /* ============================ TEST YOUR CODE ============================
